@@ -9,7 +9,7 @@ int main()
     cin >> a;
     cout << "b = ";
     cin >> b;
-    p = sqrt(a * a + b * b);
+    p = sqrt(a * a + b * b) + a + b;
     s = (a + b)/2;
     cout << "P = " << p << endl;
     cout << "S = " << s << endl;
