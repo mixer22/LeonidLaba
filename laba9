@@ -11,6 +11,7 @@ int main()
     cin >> b;
     p = sqrt(a * a + b * b) + a + b;
     s = (a + b)/2;
+    cout << "Hypotenuse = " << sqrt(a*a + b*b) << endl;
     cout << "P = " << p << endl;
     cout << "S = " << s << endl;
 }
