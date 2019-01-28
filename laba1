@@ -1,0 +1,22 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+    double a,b,c,p,s,H1,H2,H3;
+    cout << "a = ";
+    cin >> a;
+    cout << "b = ";
+    cin >> b;
+    cout << "c = ";
+    cin >> c;
+    p = (a+b+c)/2;
+    s = sqrt(p*(p-a)*(p-b)*(p-c));
+    H1 = (2*s)/a;
+    H2 = (2*s)/b;
+    H3 = (2*s)/c;
+    cout << "h(a) = " << H1 << endl;
+    cout << "h(b) = " << H2 << endl;
+    cout << "h(c) = " << H3 << endl;
+}
