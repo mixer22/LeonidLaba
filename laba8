@@ -1,0 +1,16 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+    double a,V,S1,S2;
+    cout << "a = ";
+    cin >> a;
+    V = pow(a,3);
+    cout << "V = " << V << endl;
+    S1 = 4 * pow(a,2);
+    cout << "S bok.pov = " << S1 << endl;
+    S2 = pow(a,2);
+    cout << "S gran = " << S2 << endl;
+}
