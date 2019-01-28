@@ -4,15 +4,15 @@ using namespace std;
 int main() {
     double r,R,l,s,v;
     const double pi = 3.14;
-    cout << "Введите R" << endl;
+    cout << "R = " << endl;
     cin >> R;
-    cout << "Введите r" << endl;
+    cout << "r = " << endl;
     cin >> r;
-    cout << "Введите l" << endl;
+    cout << "l = " << endl;
     cin >> l;
     s = (pi * (R + r) * l) + pi * (R*R) + pi * (r*r);
     v = 0.33 * pi * ((R*R) + (r*r) + (R * r)) * l;
-    cout << "Площадь поверхности S = " << s << endl;
-    cout << "Объём V = " << v << endl;
+    cout << "S = " << s << endl;
+    cout << "V = " << v << endl;
     return 0;
 }
