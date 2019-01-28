@@ -1,0 +1,14 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+    double x,y,F;
+    cout << "x = ";
+    cin >> x;
+    cout << "y = ";
+    cin >> y;
+    F = 1 + abs(y - x) + (pow((y - x),2)/2) + (abs(y - pow(x,3))/3);
+    cout << "F = " << F << endl;
+}
