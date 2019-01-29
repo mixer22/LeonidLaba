@@ -1,0 +1,14 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+   double a,S,R;
+   cout << "a = ";
+   cin >> a;
+   S = (sqrt(3)/4)*pow(a,2);
+   R = pow(a,3)/(4*S);
+   cout << "S = " << S << endl;
+   cout << "R = " << R << endl;
+}
