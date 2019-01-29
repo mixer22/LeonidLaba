@@ -1,0 +1,13 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+   double x, F, sinx;
+   cout << "x = ";
+   cin >> x;
+   sinx = sin(x)*sin(x);
+   F = sinx + pow(x,3) + (cos(x) - (sinx*sinx + pow(x,2))/x);
+   cout << "F = " << F << endl;
+}
