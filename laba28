@@ -1,0 +1,14 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+   double x, y, F;
+   cout << "x = ";
+   cin >> x;
+   cout << "y = ";
+   cin >> y;
+   F = (1 + tan(3*y - x))/((pow(x,4)/4) + cos(y)*cos(y)*cos(y));
+   cout << "F = " << F << endl;
+}
