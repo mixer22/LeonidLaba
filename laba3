@@ -1,0 +1,25 @@
+#include <iostream>
+#include <math.h>
+using namespace std;
+
+int main()
+{
+   double x1,x2,y1,y2,n1,n2,x,y,j;
+   cout << "x1 = ";
+   cin >> x1;
+   cout << "y1 = ";
+   cin >> y1;
+   cout << "x2 = ";
+   cin >> x2;
+   cout << "y2 = ";
+   cin >> y2;
+   cout << "n1 = ";
+   cin >> n1;
+   cout << "n2 = ";
+   cin >> n2;
+   j = n1/n2;
+   x = (x1 + j*x2)/(1+j);
+   y = (y1 + j*y2)/(1+j);
+   cout << "x = " << x << endl;
+   cout << "y = " << y << endl;
+}
